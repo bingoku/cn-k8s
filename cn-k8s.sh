@@ -9,7 +9,7 @@ DNS_VERSION=1.14.8
 CORE_VERSION=1.1.3
 
 GCR_URL=k8s.gcr.io
-ALIYUN_URL=registry.ap-northeast-1.aliyuncs.com/cn-k8s
+ALIYUN_URL=registry.cn-shenzhen.aliyuncs.com/cn-k8s
 
 images=(kube-proxy-amd64:${KUBE_VERSION}
 kube-scheduler-amd64:${KUBE_VERSION}
