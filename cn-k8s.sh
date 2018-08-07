@@ -9,6 +9,8 @@ DNS_VERSION=1.14.8
 CORE_VERSION=1.1.3
 DASHBOARD_VERSION=v1.8.3
 HEAPSTER_VERSION=v1.5.4
+INFLUXDB_VERSION=v1.5.2
+GRAFANA_VERSION=v5.0.4
 
 
 GCR_URL=k8s.gcr.io
@@ -18,6 +20,8 @@ images=(kube-proxy-amd64:${KUBE_VERSION}
 kube-scheduler-amd64:${KUBE_VERSION}
 heapster-amd64:${HEAPSTER_VERSION}
 kube-controller-manager-amd64:${KUBE_VERSION}
+heapster-influxdb-amd64:${INFLUXDB_VERSION}
+heapster-grafana-amd64:${GRAFANA_VERSION}
 kube-apiserver-amd64:${KUBE_VERSION}
 kubernetes-dashboard-amd64:${DASHBOARD_VERSION}
 pause:${KUBE_PAUSE_VERSION}
